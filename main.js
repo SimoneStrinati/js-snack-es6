@@ -1,9 +1,16 @@
 const racingBike = [
 
-    { nome: "Amflow", peso: 15},
-    { nome: "Bergamont", peso: 12},
-    { nome: "Bianchi", peso: 8 },
-    { nome: "Bold", peso: 13},
+    { name: "Amflow", weight: 15},
+    { name: "Bergamont", weight: 12},
+    { name: "Bianchi", weight: 8 },
+    { name: "Bold", weight: 13},
 
 ];
+
+for (let i = 0; i < racingBike.length; i++) {
+    const bike = racingBike[i];
+
+    console.log(`La ${bike.name} pesa ${bike.weight}`);
+    
+}
 
